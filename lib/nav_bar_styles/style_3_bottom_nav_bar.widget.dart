@@ -47,7 +47,7 @@ class BottomNavStyle3 extends StatelessWidget {
                       const SizedBox.shrink()
                     else
                       Padding(
-                        padding: const EdgeInsets.only(top: 15),
+                        padding: const EdgeInsets.only(bottom: 10),
                         child: Material(
                           type: MaterialType.transparency,
                           child: DefaultTextStyle.merge(
@@ -63,9 +63,9 @@ class BottomNavStyle3 extends StatelessWidget {
                                         ? (item.activeColorSecondary ??
                                             item.activeColorPrimary)
                                         : item.inactiveColorPrimary,
-                                fontWeight: FontWeight.w400,
+                                fontWeight: FontWeight.w600,
                                 fontSize: 12),
-                            child: FittedBox(child: Text(item.title!)),
+                            child: Text(item.title!),
                           ),
                         ),
                       ),
