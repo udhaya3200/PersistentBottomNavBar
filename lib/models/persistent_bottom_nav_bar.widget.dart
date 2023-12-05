@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_positional_boolean_parameters
+
 part of persistent_bottom_nav_bar;
 
 class PersistentBottomNavBar extends StatelessWidget {
